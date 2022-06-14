@@ -1,0 +1,36 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int notaPrimeiroBimestre = 8;
+		int notaSegundoBimestre = 7;
+		int somaNotas = (notaPrimeiroBimestre + notaSegundoBimestre);
+		int notasMedias = (somaNotas)/2;
+		
+		Console.WriteLine("Notas somadas: {0}", (somaNotas) );
+		Console.WriteLine("Nota Média: {0}", (notasMedias) );
+	}
+}
+
+
+------------------------------------------------------------------------ Esboço 2 -------------------------------------------------------------------------------------
+
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int popOne = 7000;
+		int popTwo = 9000;
+		int popSum = ( popOne + popTwo);
+		int popMed = (popSum)/2; 
+		
+		
+		Console.WriteLine("Soma das Populações: " + (popSum) );
+		Console.WriteLine("Média das Populações: " + (popMed) );
+	}
+}
